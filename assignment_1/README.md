@@ -2,7 +2,7 @@
 
 Before running followings, you must load environment variables on each terminal using baxter.sh
 
-#Problem 1
+# Problem 1
 ## Problem 1.A
 After implementing the original DMPs on the problem_1.py, run it as follows:
 ~~~~bash
@@ -31,7 +31,7 @@ roscd assignment_1/src/assignment_1
 python3 problem_1.py -s d
 ~~~~
 
-#Problem 2
+# Problem 2
 ## Problem 2.A
 Train an original DMP with a 2-dimensional demonstration on the problem_2.py. You can run the code as follows:
 ~~~~bash
