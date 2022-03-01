@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>assignment_1</name>
+  <version>0.0.1</version>
+  <description>The assignment_1 package</description>
+
+  <maintainer email="daehyung@kaist.ac.kr">Daehyung Park</maintainer>
+
+  <license>BSD</license>
+  <author email="daehyung@kaist.ac.kr">Daehyung Park</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>pykdl_utils</exec_depend>
+  <exec_depend>trac_ik_python</exec_depend>
+
+  <export>
+  </export>
+</package>
