@@ -8,6 +8,13 @@ sudo apt-get install gazebo9 ros-noetic-qt-build ros-noetic-driver-common ros-no
 sudo pip3 install beizer bezier
 ~~~~
 
+Before install the Baxter simulator you need to install libqt4-dev:
+~~~~bash
+sudo add-apt-repository ppa:rock-core/qt4
+sudo apt update
+sudo apt install libqt4-dev
+~~~~
+
 ## Installation of your project repository
 ~~~~bash
 source /opt/ros/noetic/setup.sh
@@ -65,13 +72,6 @@ Make sure that if ROS_MASTER_URI and ROS_ROOT, ETC are properly setup.
 ## Command-line tools
 There are many useful command-line tools like rostopic, rqt_graph, rosbag, etc. Please, see http://wiki.ros.org/ROS/CommandLineTools
 
-## libqt4-dev
-Before install the Baxter simulator you need to install libqt4-dev:
-~~~~bash
-sudo add-apt-repository ppa:rock-core/qt4
-sudo apt update
-sudo apt install libqt4-dev
-~~~~
 
 ## Tutorials for Baxter
 The instructions for the the Baxter can be found in here:
