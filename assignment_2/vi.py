@@ -140,7 +140,6 @@ class valueIterAgent:
     def test(self):
         """test"""
         state = self.env.reset()
-        path  = [self.env.get]
 
         self.env.render_value_map(self.values, self.grid_dim[0])
         while True:
@@ -153,7 +152,6 @@ class valueIterAgent:
             if done:
                 self.env.close()
                 break
-        return path
     
     def save(self, filename='vi.pkl'):
         """Save the obtained state values"""
